@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Create a new User Profile</h1>
+    
+    <form id="signup" action="http://localhost:3000/signup" method="POST">
+        <label for="name">Enter your name:</label><br>
+        <input type="text" id="name" placeholder="Username" name="name" required><br>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" placeholder="e-mail" name="email" required><br>
+        <label for="password">Set password:</label><br>
+        <input type="password" id="password" placeholder="password" name="password" required><br>
+        <label for="age">Enter your age:</label><br>
+        <input type="number" id="age" placeholder="Age" name="age" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
